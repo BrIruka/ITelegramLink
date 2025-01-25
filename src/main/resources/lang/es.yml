@@ -1,0 +1,38 @@
+# Mensajes generales
+prefix: "&7[&bITelegramLink&7] &r"
+
+# Mensajes de comandos
+commands:
+  no-permission: "{prefix}&c¡No tienes permiso para usar este comando!"
+  player-only: "{prefix}&c¡Este comando solo está disponible para jugadores!"
+  help:
+    title: "&6=== TelegramLink ==="
+    link: "&f/telegram link &7- Vincular tu cuenta de Telegram"
+    unlink: "&f/telegram unlink &7- Desvincular tu cuenta de Telegram"
+  admin-help:
+    title: "&6=== TelegramLink Admin ==="
+    reload: "&f/telegramadmin reload &7- Recargar el plugin"
+  link:
+    already-linked: "{prefix}&c¡Tu cuenta ya está vinculada a Telegram!"
+    code-generated: "{prefix}&aTu código de vinculación: &e{code}"
+    send-to-bot: "{prefix}&aEnvía este código al bot de Telegram: &e@{bot}"
+  unlink:
+    not-linked: "{prefix}&c¡Tu cuenta no está vinculada a Telegram!"
+    success: "{prefix}&a¡Tu cuenta ha sido desvinculada de Telegram con éxito!"
+  reload:
+    start: "{prefix}&6Recargando plugin..."
+    success: "{prefix}&a¡Plugin recargado con éxito!"
+    error: "{prefix}&cError al recargar: {error}"
+
+# Configuración de mensajes
+messages:
+  link-command: '§aUsa /telegram link para vincular tu cuenta'
+  successful-link: '§a¡Tu cuenta ha sido vinculada a Telegram con éxito!'
+  already-linked: '§c¡Esta cuenta ya está vinculada a Telegram!'
+
+# Mensajes de Telegram
+telegram:
+  account-linked: "✅ ¡Cuenta vinculada con éxito!"
+  send-code: "Por favor, envía el código de vinculación recibido en el servidor."
+  player-join: "✅ ¡El jugador {player} se ha unido al servidor!"
+  player-quit: "❌ ¡El jugador {player} ha abandonado el servidor!"

@@ -1,0 +1,10 @@
+# Язык плагина (доступные: en, ru, uk, pl, zh, fr, es)
+language: "ru"
+
+# Настройки Telegram бота
+telegram:
+  bot-token: 'YOUR_BOT_TOKEN_HERE'
+  bot-username: 'YOUR_BOT_USERNAME_HERE'
+
+storage:
+  type: 'file'

@@ -1,0 +1,9 @@
+com\iruka\ITelegramLink\storage\JsonStorage$1.class
+com\iruka\ITelegramLink\commands\TelegramAdminCommand.class
+com\iruka\ITelegramLink\storage\Storage.class
+com\iruka\ITelegramLink\telegram\TelegramBot.class
+com\iruka\ITelegramLink\storage\JsonStorage.class
+com\iruka\ITelegramLink\utils\Lang.class
+com\iruka\ITelegramLink\commands\TelegramCommand.class
+com\iruka\ITelegramLink\ITelegramLink.class
+com\iruka\ITelegramLink\listeners\PlayerListener.class

@@ -1,0 +1,38 @@
+# Ogólne wiadomości
+prefix: "&7[&bITelegramLink&7] &r"
+
+# Wiadomości komend
+commands:
+  no-permission: "{prefix}&cNie masz uprawnień do użycia tej komendy!"
+  player-only: "{prefix}&cTa komenda jest dostępna tylko dla graczy!"
+  help:
+    title: "&6=== TelegramLink ==="
+    link: "&f/telegram link &7- Połącz konto Telegram"
+    unlink: "&f/telegram unlink &7- Odłącz konto Telegram"
+  admin-help:
+    title: "&6=== TelegramLink Admin ==="
+    reload: "&f/telegramadmin reload &7- Przeładuj plugin"
+  link:
+    already-linked: "{prefix}&cTwoje konto jest już połączone z Telegramem!"
+    code-generated: "{prefix}&aTwój kod połączenia: &e{code}"
+    send-to-bot: "{prefix}&aWyślij ten kod do bota Telegram: &e@{bot}"
+  unlink:
+    not-linked: "{prefix}&cTwoje konto nie jest połączone z Telegramem!"
+    success: "{prefix}&aTwoje konto zostało pomyślnie odłączone od Telegrama!"
+  reload:
+    start: "{prefix}&6Przeładowywanie pluginu..."
+    success: "{prefix}&aPlugin został pomyślnie przeładowany!"
+    error: "{prefix}&cBłąd podczas przeładowywania: {error}"
+
+# Ustawienia wiadomości
+messages:
+  link-command: '§aUżyj komendy /telegram link aby połączyć konto'
+  successful-link: '§aTwoje konto zostało pomyślnie połączone z Telegramem!'
+  already-linked: '§cTo konto jest już połączone z Telegramem!'
+
+# Wiadomości Telegram
+telegram:
+  account-linked: "✅ Konto pomyślnie połączone!"
+  send-code: "Wyślij kod połączenia otrzymany na serwerze."
+  player-join: "✅ Gracz {player} dołączył do serwera!"
+  player-quit: "❌ Gracz {player} opuścił serwer!"

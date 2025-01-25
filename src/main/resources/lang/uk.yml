@@ -1,0 +1,38 @@
+# Загальні повідомлення
+prefix: "&7[&bITelegramLink&7] &r"
+
+# Повідомлення команд
+commands:
+  no-permission: "{prefix}&cУ вас немає прав для використання цієї команди!"
+  player-only: "{prefix}&cЦя команда доступна тільки для гравців!"
+  help:
+    title: "&6=== TelegramLink ==="
+    link: "&f/telegram link &7- Прив'язати акаунт Telegram"
+    unlink: "&f/telegram unlink &7- Відв'язати акаунт Telegram"
+  admin-help:
+    title: "&6=== TelegramLink Admin ==="
+    reload: "&f/telegramadmin reload &7- Перезавантажити плагін"
+  link:
+    already-linked: "{prefix}&cВаш акаунт вже прив'язаний до Telegram!"
+    code-generated: "{prefix}&aВаш код для прив'язки: &e{code}"
+    send-to-bot: "{prefix}&aНадішліть цей код боту в Telegram: &e@{bot}"
+  unlink:
+    not-linked: "{prefix}&cВаш акаунт не прив'язаний до Telegram!"
+    success: "{prefix}&aВаш акаунт успішно відв'язано від Telegram!"
+  reload:
+    start: "{prefix}&6Перезавантаження плагіна..."
+    success: "{prefix}&aПлагін успішно перезавантажено!"
+    error: "{prefix}&cПомилка при перезавантаженні: {error}"
+
+# Налаштування повідомлень
+messages:
+  link-command: '§aВикористовуйте команду /telegram link для прив''язки акаунта'
+  successful-link: '§aВаш акаунт успішно прив''язано до Telegram!'
+  already-linked: '§cЦей акаунт вже прив''язаний до Telegram!'
+
+# Повідомлення Telegram
+telegram:
+  account-linked: "✅ Акаунт успішно прив'язано!"
+  send-code: "Надішліть код прив'язки, отриманий на сервері."
+  player-join: "✅ Гравець {player} зайшов на сервер!"
+  player-quit: "❌ Гравець {player} вийшов з сервера!"

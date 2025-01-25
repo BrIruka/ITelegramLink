@@ -1,0 +1,38 @@
+# 通用消息
+prefix: "&7[&bITelegramLink&7] &r"
+
+# 命令消息
+commands:
+  no-permission: "{prefix}&c您没有使用此命令的权限！"
+  player-only: "{prefix}&c此命令仅适用于玩家！"
+  help:
+    title: "&6=== TelegramLink ==="
+    link: "&f/telegram link &7- 绑定Telegram账号"
+    unlink: "&f/telegram unlink &7- 解绑Telegram账号"
+  admin-help:
+    title: "&6=== TelegramLink 管理员 ==="
+    reload: "&f/telegramadmin reload &7- 重载插件"
+  link:
+    already-linked: "{prefix}&c您的账号已经绑定了Telegram！"
+    code-generated: "{prefix}&a您的绑定码：&e{code}"
+    send-to-bot: "{prefix}&a请将此代码发送给Telegram机器人：&e@{bot}"
+  unlink:
+    not-linked: "{prefix}&c您的账号尚未绑定Telegram！"
+    success: "{prefix}&a您的账号已成功解绑Telegram！"
+  reload:
+    start: "{prefix}&6正在重载插件..."
+    success: "{prefix}&a插件重载成功！"
+    error: "{prefix}&c重载时发生错误：{error}"
+
+# 消息设置
+messages:
+  link-command: '§a使用 /telegram link 命令绑定账号'
+  successful-link: '§a您的账号已成功绑定到Telegram！'
+  already-linked: '§c此账号已经绑定了Telegram！'
+
+# Telegram消息
+telegram:
+  account-linked: "✅ 账号绑定成功！"
+  send-code: "请发送从服务器获得的绑定码。"
+  player-join: "✅ 玩家 {player} 加入了服务器！"
+  player-quit: "❌ 玩家 {player} 离开了服务器！"

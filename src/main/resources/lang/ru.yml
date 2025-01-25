@@ -1,0 +1,39 @@
+# Общие сообщения
+prefix: "&7[&bITelegramLink&7] &r"
+
+# Сообщения команд
+commands:
+  no-permission: "{prefix}&cУ вас нет прав для использования этой команды!"
+  player-only: "{prefix}&cЭта команда доступна только для игроков!"
+  help:
+    title: "&6=== TelegramLink ==="
+    link: "&f/telegram link &7- Привязать аккаунт Telegram"
+    unlink: "&f/telegram unlink &7- Отвязать аккаунт Telegram"
+  admin-help:
+    title: "&6=== TelegramLink Admin ==="
+    reload: "&f/telegramadmin reload &7- Перезагрузить плагин"
+  link:
+    already-linked: "{prefix}&cВаш аккаунт уже привязан к Telegram!"
+    code-generated: "{prefix}&aВаш код для привязки: &e{code}"
+    send-to-bot: "{prefix}&aОтправьте этот код боту в Telegram: &e@{bot}"
+  unlink:
+    not-linked: "{prefix}&cВаш аккаунт не привязан к Telegram!"
+    success: "{prefix}&aВаш аккаунт успешно отвязан от Telegram!"
+  reload:
+    start: "{prefix}&6Перезагрузка плагина..."
+    success: "{prefix}&aПлагин успешно перезагружен!"
+    error: "{prefix}&cОшибка при перезагрузке: {error}"
+
+# Настройки сообщений
+messages:
+  link-command: '§aИспользуйте команду /telegram link для привязки аккаунта'
+  successful-link: '§aВаш аккаунт успешно привязан к Telegram!'
+  already-linked: '§cЭтот аккаунт уже привязан к Telegram!'
+
+
+# Telegram сообщения
+telegram:
+  account-linked: "✅ Аккаунт успешно привязан!"
+  send-code: "Отправьте код привязки, полученный на сервере."
+  player-join: "✅ Игрок {player} зашел на сервер!"
+  player-quit: "❌ Игрок {player} вышел с сервера!"

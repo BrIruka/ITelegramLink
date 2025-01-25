@@ -1,0 +1,22 @@
+name: ITelegramLink
+version: ${project.version}
+main: com.iruka.ITelegramLink.ITelegramLink
+api-version: '1.18'
+authors: [Iruka]
+description: Plugin for linking Minecraft accounts with Telegram
+
+commands:
+  telegram:
+    description: The basic command for linking a Telegram account
+    usage: /<command> [link|unlink]
+    aliases: [tg]
+  telegramadmin:
+    description: Administrator commands to manage the plugin
+    usage: /<command> reload
+    aliases: [tgadmin]
+    permission: telegramlink.admin
+
+permissions:
+  telegramlink.admin:
+    description: Access to plugin administrative commands
+    default: op

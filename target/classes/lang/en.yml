@@ -1,0 +1,38 @@
+# General messages
+prefix: "&7[&bITelegramLink&7] &r"
+
+# Command messages
+commands:
+  no-permission: "{prefix}&cYou don't have permission to use this command!"
+  player-only: "{prefix}&cThis command is only available for players!"
+  help:
+    title: "&6=== TelegramLink ==="
+    link: "&f/telegram link &7- Link your Telegram account"
+    unlink: "&f/telegram unlink &7- Unlink your Telegram account"
+  admin-help:
+    title: "&6=== TelegramLink Admin ==="
+    reload: "&f/telegramadmin reload &7- Reload the plugin"
+  link:
+    already-linked: "{prefix}&cYour account is already linked to Telegram!"
+    code-generated: "{prefix}&aYour linking code: &e{code}"
+    send-to-bot: "{prefix}&aSend this code to the Telegram bot: &e@{bot}"
+  unlink:
+    not-linked: "{prefix}&cYour account is not linked to Telegram!"
+    success: "{prefix}&aYour account has been successfully unlinked from Telegram!"
+  reload:
+    start: "{prefix}&6Reloading plugin..."
+    success: "{prefix}&aPlugin successfully reloaded!"
+    error: "{prefix}&cError while reloading: {error}"
+
+# Message settings
+messages:
+  link-command: '§aUse /telegram link to link your account'
+  successful-link: '§aYour account has been successfully linked to Telegram!'
+  already-linked: '§cThis account is already linked to Telegram!'
+
+# Telegram messages
+telegram:
+  account-linked: "✅ Account successfully linked!"
+  send-code: "Please send the linking code received on the server."
+  player-join: "✅ Player {player} has joined the server!"
+  player-quit: "❌ Player {player} has left the server!"
